@@ -1,0 +1,35 @@
+
+compass-blend-modes.gemspec  
+
+ 
+View file @ 1e9ce7b 
+ 
+
+...   ...   @@ -3,16 +3,17 @@ $:.push File.expand_path("../lib", __FILE__)  
+3   3     require "compass/blend-modes/version"  
+4   4       
+5   5     Gem::Specification.new do |s|  
+6        -  s.name        = 'compass-blend-modes'  
+7        -  s.version     = Compass::BlendModes::VERSION  
+8        -  s.platform    = Gem::Platform::RUBY  
+9        -  s.summary     = "Using standard color blending functions in Sass."  
+10        -  s.description = "Using standard color blending functions in Sass."  
+11        -  s.homepage    = "https://github.com/heygrady/scss-blend-modes"  
+12        -  s.authors     = ["Grady Kuhnline"]  
+13        -  s.email       = ["github@heygrady.net"]  
+    6    +  s.name          = 'compass-blend-modes'  
+    7    +  s.version       = Compass::BlendModes::VERSION  
+    8    +  s.platform      = Gem::Platform::RUBY  
+    9    +  s.summary       = "Using standard color blending functions in Sass."  
+    10    +  s.description   = "Using standard color blending functions in Sass."  
+    11    +  s.homepage      = "https://github.com/heygrady/scss-blend-modes"  
+    12    +  s.authors       = ["Grady Kuhnline"]  
+    13    +  s.email         = ["github@heygrady.net"]  
+    14    +  s.license       = 'MIT'  
+14   15       
+15        -  s.has_rdoc = false  
+    16    +  s.has_rdoc      = false  
+16   17       s.files         = `git ls-files`.split("\n")  
+17   18       s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")  
+18   19       s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }  
+
